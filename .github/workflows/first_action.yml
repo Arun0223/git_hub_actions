@@ -17,6 +17,8 @@ jobs:
           python-version: "3.12"
       - name: Listing out python version
         run : python --version
+      - name : Listing out pip version
+        run : pip --version
       - name: List files
         run : ls -la
       - name : Bye
