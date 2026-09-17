@@ -11,5 +11,7 @@ jobs:
     steps:
       - name : Welcome
         run : echo "Hi, welcome to GitHub Actions"
+      - name : checking out code
+        uses: actions/checkout@v4
       - name : Bye
         run : echo "Good bye to the actions"
