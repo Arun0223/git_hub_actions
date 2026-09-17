@@ -13,6 +13,8 @@ jobs:
         run : echo "Hi, welcome to GitHub Actions"
       - name : checking out code
         uses: actions/checkout@v4
+        with:
+          python-version: "3.12"
       - name: List files
         run : ls -la
       - name : Bye
