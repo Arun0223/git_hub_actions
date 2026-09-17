@@ -1,5 +1,5 @@
 [project]
-name = "python-project"
+name = "taskflow"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
