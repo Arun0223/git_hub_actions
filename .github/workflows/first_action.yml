@@ -13,5 +13,7 @@ jobs:
         run : echo "Hi, welcome to GitHub Actions"
       - name : checking out code
         uses: actions/checkout@v4
+      - name: List files
+        run : ls -la
       - name : Bye
         run : echo "Good bye to the actions"
